@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11429" started-at="2021-11-15T08:24:10 AST" finished-at="2021-11-15T08:24:21 AST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11429" started-at="2021-11-15T08:24:10 AST" finished-at="2021-11-15T08:24:21 AST">
+      <class name="testCases.LoadAndVerifyAllPages">
+        <test-method status="PASS" signature="login()[pri:0, instance:testCases.LoadAndVerifyAllPages@46daef40]" name="login" is-config="true" duration-ms="5520" started-at="2021-11-15T08:24:10 AST" finished-at="2021-11-15T08:24:16 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="management()[pri:0, instance:testCases.LoadAndVerifyAllPages@46daef40]" name="management" duration-ms="3690" started-at="2021-11-15T08:24:16 AST" finished-at="2021-11-15T08:24:19 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- management -->
+        <test-method status="PASS" signature="notifications()[pri:0, instance:testCases.LoadAndVerifyAllPages@46daef40]" name="notifications" duration-ms="1537" started-at="2021-11-15T08:24:19 AST" finished-at="2021-11-15T08:24:21 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notifications -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.LoadAndVerifyAllPages@46daef40]" name="tearDown" is-config="true" duration-ms="649" started-at="2021-11-15T08:24:21 AST" finished-at="2021-11-15T08:24:21 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LoadAndVerifyAllPages -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
