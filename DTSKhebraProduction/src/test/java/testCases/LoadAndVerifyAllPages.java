@@ -19,7 +19,7 @@ public class LoadAndVerifyAllPages {
 	public static WebDriver driver;
 	public static String pageHeader;
 
-	/*public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws Exception {
 		login();
 		studentsPages();
 		trainerPages();
@@ -27,7 +27,7 @@ public class LoadAndVerifyAllPages {
 		schedulePages();
 		tearDown();
 	}
-	*/
+	
 	@BeforeTest
 	public static void login() throws Exception {
 		WebDriverManager.chromedriver().setup();

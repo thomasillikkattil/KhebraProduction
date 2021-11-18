@@ -5,9 +5,12 @@
     <classes>
       <class name="testCases.LoadAndVerifyAllPages">
         <methods>
+          <include name="trainerPages"/>
+          <include name="categories"/>
+          <include name="studentsPages"/>
           <include name="login"/>
+          <include name="schedulePages"/>
           <include name="tearDown"/>
-          <include name="management"/>
         </methods>
       </class> <!-- testCases.LoadAndVerifyAllPages -->
     </classes>
